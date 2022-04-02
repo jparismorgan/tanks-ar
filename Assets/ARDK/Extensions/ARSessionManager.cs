@@ -293,13 +293,13 @@ namespace Niantic.ARDK.Extensions
       }
 
       if (tryingToSpawn_) {
-        // #if UNITY_EDITOR
-        //   // Hit tests against EstimatedHorizontalPlanes don't work in Virtual Studio Remote/Mock,
-        //   // so just place the cube under mouse click
-        //   var x = 0;
-        //   var y = 0;
-        //   var position = camera_.ScreenToWorldPoint(new Vector3(x, y, 1f));
-        // #else
+        #if UNITY_EDITOR
+          // Hit tests against EstimatedHorizontalPlanes don't work in Virtual Studio Remote/Mock,
+          // so just place the cube under mouse click
+          var x = 0;
+          var y = 0;
+          var position = new Vector3(x, y, 1f);
+        #else
           // Get the current frame
           var currentFrame = _arSession.CurrentFrame;
           var x = currentFrame.Camera.ImageResolution.width / 2; // camera_.pixelWidth / 2;
@@ -328,7 +328,7 @@ namespace Niantic.ARDK.Extensions
           }
           // Create a new anchor and add it to our list and the session
           var position = result.WorldTransform.ToPosition();
-        // #endif
+        #endif
         Debug.Log($"x {x} y {y} -> {position.x} {position.y}");
 
         _tank = Instantiate(tankPrefab_, position, Quaternion.identity);
