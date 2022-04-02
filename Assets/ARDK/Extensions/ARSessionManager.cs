@@ -288,7 +288,7 @@ namespace Niantic.ARDK.Extensions
     private void Update()
     {
       if (_arSession == null) {
-        Debug.Log("(_arSession == null)");
+        // Debug.Log("(_arSession == null)");
         return;
       }
 
@@ -297,7 +297,7 @@ namespace Niantic.ARDK.Extensions
           // Hit tests against EstimatedHorizontalPlanes don't work in Virtual Studio Remote/Mock,
           // so just place the cube under mouse click
           var x = 0;
-          var y = 0;
+          var y = -1;
           var position = new Vector3(x, y, 1f);
         #else
           // Get the current frame
@@ -305,7 +305,7 @@ namespace Niantic.ARDK.Extensions
           var x = currentFrame.Camera.ImageResolution.width / 2; // camera_.pixelWidth / 2;
           var y = currentFrame.Camera.ImageResolution.height / 2; // camera_.pixelHeight / 2;
           if (currentFrame == null) {
-            Debug.Log("(currentFrame == null)");
+            // Debug.Log("(currentFrame == null)");
             return;
           }
           // Do a hit test against estimated planes (ie against the real world environment, not against
