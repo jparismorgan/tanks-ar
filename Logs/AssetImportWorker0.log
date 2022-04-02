@@ -1,0 +1,529 @@
+Unity Editor version:    2020.3.32f1 (12f8b0834f07)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2 (Build 21D49)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        65536 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/parismorgan/repo/ARDK-Getting-Started
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57177
+Successfully changed project path to: /Users/parismorgan/repo/ARDK-Getting-Started
+/Users/parismorgan/repo/ARDK-Getting-Started
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/parismorgan/repo/ARDK-Getting-Started/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-01 21:15:10.641 Unity[78194:2925447] (null) preferred device: Apple M1 Max (high power)
+2022-04-01 21:15:10.641 Unity[78194:2925447] Metal devices available: 1
+2022-04-01 21:15:10.641 Unity[78194:2925447] 0: Apple M1 Max (high power)
+2022-04-01 21:15:10.641 Unity[78194:2925447] Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56194
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000352 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1160ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Mono: successfully reloaded assembly
+- Completed reload, in  1.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1977ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1658ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (871ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (674ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.009559 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.015874 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2022-04-01 21:15:15.199 Unity[78194:2925447] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000018e11f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-01 21:15:15.203 Unity[78194:2925447] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000018f2bc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2244 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.7 MB.
+System memory in use after: 202.9 MB.
+
+Unloading 179 unused Assets to reduce memory usage. Loaded Objects now: 2701.
+Total: 2.479625 ms (FindLiveObjects: 0.096541 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.855875 ms  DeleteObjects: 0.479959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ARDKExamples/ARDK-Examples.asmdef
+  artifactKey: Guid(79582743010684bb59de6cfe6965f7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ARDK-Examples.asmdef using Guid(79582743010684bb59de6cfe6965f7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4195fa7f9de5ad50d8c2719ab17e81a1') in 0.610704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.201829 seconds.
+  path: Assets/ARDKExamples/SceneSelector
+  artifactKey: Guid(e07beffb0704d4f9a981bff1e097e819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/SceneSelector using Guid(e07beffb0704d4f9a981bff1e097e819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed54904021ee259ce8f71e7b2b4ae2f') in 0.001008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.226040 seconds.
+  path: Assets/ARDKExamples/SceneSelector/SceneSelector.unity
+  artifactKey: Guid(84237189c8d04465ba3b54cde60f5d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/SceneSelector/SceneSelector.unity using Guid(84237189c8d04465ba3b54cde60f5d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f1c959228a155aadded8cdbe4d78d8') in 0.001337 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.1 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2701.
+Total: 2.066459 ms (FindLiveObjects: 0.102459 ms CreateObjectMapping: 0.045666 ms MarkObjects: 1.855875 ms  DeleteObjects: 0.061834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 266.941228 seconds.
+  path: Assets/ARDKExamples/SceneSelector/README
+  artifactKey: Guid(92fe3cbb049284c40a48dbd0973f9925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/SceneSelector/README using Guid(92fe3cbb049284c40a48dbd0973f9925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a96a6bb4ffd7e7f75d22733d60b80d') in 0.016779 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-01 21:19:59.308 Unity[78194:2925447] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000018f1dc0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Mono: successfully reloaded assembly
+- Completed reload, in  1.901 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1901ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1638ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (880ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (640ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.7 MB.
+System memory in use after: 203.7 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 2.050625 ms (FindLiveObjects: 0.083125 ms CreateObjectMapping: 0.042542 ms MarkObjects: 1.852583 ms  DeleteObjects: 0.071459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.017825 seconds.
+  path: Assets/ARDKExamples/AnchorsWithoutPlanes/AnchorsWithoutPlanes.unity
+  artifactKey: Guid(335ff4cdf176a4f84b353ffcebaa8b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/AnchorsWithoutPlanes/AnchorsWithoutPlanes.unity using Guid(335ff4cdf176a4f84b353ffcebaa8b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b97559b263c05cc04abd6fd14d5883') in 0.007619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.835441 seconds.
+  path: Assets/ARDKExamples/ARNetworking/ARNetworking.unity
+  artifactKey: Guid(bca8fefed828e45d1a0c8393ac6fed6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ARNetworking/ARNetworking.unity using Guid(bca8fefed828e45d1a0c8393ac6fed6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a463e36f742931ba0f33c63240f6f8dd') in 0.001542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.856129 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Depth/Depth.unity
+  artifactKey: Guid(e5811d6a38e5846ca8d1a720194f0a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Depth/Depth.unity using Guid(e5811d6a38e5846ca8d1a720194f0a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e323763598eb84a6bf1ab066706087') in 0.001801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.584444 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Depth/Suppression.unity
+  artifactKey: Guid(c3eb118178d3f41c1b8e34dc3882e175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Depth/Suppression.unity using Guid(c3eb118178d3f41c1b8e34dc3882e175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5b9079f4c5143f1ed13a38956151de') in 0.001222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.654151 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Meshing/Meshing.unity
+  artifactKey: Guid(5f23a8470b465422cb097c10aa71e80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Meshing/Meshing.unity using Guid(5f23a8470b465422cb097c10aa71e80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b293c618a4733c66e0ef4f7f641add4') in 0.001176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.792828 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Meshing/MeshingSemanticsExampleManager.cs
+  artifactKey: Guid(f815d997162149d1b5e786ae83421384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Meshing/MeshingSemanticsExampleManager.cs using Guid(f815d997162149d1b5e786ae83421384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2050692ca2b436fb6c629473a0c826b') in 0.176636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097351 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Meshing/MeshingSemantics.unity
+  artifactKey: Guid(cccc54269e5094071992b7e1aa2901b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Meshing/MeshingSemantics.unity using Guid(cccc54269e5094071992b7e1aa2901b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1532ccfb3cda4b03882722c502ecacf4') in 0.000981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.837336 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Meshing/MeshLoader.unity
+  artifactKey: Guid(036c6e48c322148c3a025e6b0599453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Meshing/MeshLoader.unity using Guid(036c6e48c322148c3a025e6b0599453e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454869aeb539d5c1b0956294824b9f95') in 0.001880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.112255 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Meshing/MeshSaver.unity
+  artifactKey: Guid(3ff509bf90af140eda98b9ad8499005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Meshing/MeshSaver.unity using Guid(3ff509bf90af140eda98b9ad8499005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5759e66b4ade6e82dc2b13b576374187') in 0.001253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.795444 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Navigation/Gameboard.unity
+  artifactKey: Guid(1b7213c3fe5564515858f79a5dadc2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Navigation/Gameboard.unity using Guid(1b7213c3fe5564515858f79a5dadc2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b80c6832d92e6e8eb064bc7b27cb84') in 0.001445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.685477 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Occlusion/DepthMeshOcclusion.unity
+  artifactKey: Guid(0cd063dfb53224dbfac688ff4872d5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Occlusion/DepthMeshOcclusion.unity using Guid(0cd063dfb53224dbfac688ff4872d5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b61c4691a40966c3d4e61de168a47d') in 0.001674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.685178 seconds.
+  path: Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticSegmentation.unity
+  artifactKey: Guid(b31f157add5014c85962f656eefdf04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ContextAwareness/Segmentation/SemanticSegmentation.unity using Guid(b31f157add5014c85962f656eefdf04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd741490875c82b1106a7025e47c2973') in 0.001750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.200511 seconds.
+  path: Assets/ARDKExamples/Pong/Pong.unity
+  artifactKey: Guid(eeec3b1762a214e6ebe4c5c6e22fb332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Pong/Pong.unity using Guid(eeec3b1762a214e6ebe4c5c6e22fb332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244f8a512958f23eaee9725db6a5024b') in 0.001398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.680044 seconds.
+  path: Assets/ARDKExamples/PongHLAPI/PongHLAPIDemo.unity
+  artifactKey: Guid(0e529a9004cd44c9cb9b872753e5ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/PongHLAPI/PongHLAPIDemo.unity using Guid(0e529a9004cd44c9cb9b872753e5ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7826c44d1f755c957130ad1690fe1f') in 0.001157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.394255 seconds.
+  path: Assets/ARDKExamples/Rendering/Rendering.unity
+  artifactKey: Guid(c0b2ed5f811804c769e32fac35e99ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Rendering/Rendering.unity using Guid(c0b2ed5f811804c769e32fac35e99ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cc168730c50df60e62ba6355842b00') in 0.001907 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.7 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 2.092958 ms (FindLiveObjects: 0.111167 ms CreateObjectMapping: 0.046166 ms MarkObjects: 1.869292 ms  DeleteObjects: 0.065792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.7 MB.
+System memory in use after: 164.7 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 1.925584 ms (FindLiveObjects: 0.085375 ms CreateObjectMapping: 0.040750 ms MarkObjects: 1.749375 ms  DeleteObjects: 0.049542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 853.568720 seconds.
+  path: Assets/ARDKExamples/Resources/ARDK
+  artifactKey: Guid(7d98cee1398bd4b30a0fc8a357f31974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Resources/ARDK using Guid(7d98cee1398bd4b30a0fc8a357f31974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b37baa612b124937156bc1fdd36f4c9') in 0.001233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.246930 seconds.
+  path: Assets/ARDKExamples/VirtualStudio/ARDK Remote Feed App.unity
+  artifactKey: Guid(3189817bdea5b482e84d5fdffad8fc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/VirtualStudio/ARDK Remote Feed App.unity using Guid(3189817bdea5b482e84d5fdffad8fc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639231ffe778bfda7222f3d96414d383') in 0.001219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.859253 seconds.
+  path: Assets/ARDKExamples/VirtualStudio/ExampleMockPlaythrough.unity
+  artifactKey: Guid(ffceebc85524e48fbae4938a7b255171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/VirtualStudio/ExampleMockPlaythrough.unity using Guid(ffceebc85524e48fbae4938a7b255171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb7632313be094406fc97ee1926ec48') in 0.001145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.239332 seconds.
+  path: Assets/ARDKExamples/ImageDetection/ImageDetection.unity
+  artifactKey: Guid(bc41ff5c278cd4dedae835cda53c1001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ImageDetection/ImageDetection.unity using Guid(bc41ff5c278cd4dedae835cda53c1001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47ab0c52cb0fc2ca794789fd3a30d40') in 0.001365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.467356 seconds.
+  path: Assets/ARDKExamples/Localization/Localization.unity
+  artifactKey: Guid(389152a7e601b4294ba3aa93c293ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Localization/Localization.unity using Guid(389152a7e601b4294ba3aa93c293ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f5515376efb3e8d7a850d0a8942dbe') in 0.001416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.465530 seconds.
+  path: Assets/ARDKExamples/LowLevelNetworking/LowLevelNetworking.unity
+  artifactKey: Guid(e5865429642ab4c2e81e785e73a9b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/LowLevelNetworking/LowLevelNetworking.unity using Guid(e5865429642ab4c2e81e785e73a9b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e7d3679445514b2fa8701f42388516') in 0.001813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.179575 seconds.
+  path: Assets/ARDKExamples/MarkerSync/MarkerSyncExample.unity
+  artifactKey: Guid(8a2aec5cafc9d4365a7024c9fa757a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/MarkerSync/MarkerSyncExample.unity using Guid(8a2aec5cafc9d4365a7024c9fa757a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6f2fdb1c3779a96a6b3b6346dfc3f2') in 0.001477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.013391 seconds.
+  path: Assets/ARDKExamples/PersistentKeyValue/PersistentKeyValue.unity
+  artifactKey: Guid(8aec8dbdad32e4af6b1d152eb73c6069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/PersistentKeyValue/PersistentKeyValue.unity using Guid(8aec8dbdad32e4af6b1d152eb73c6069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b5d95a1f3d7cb2580715140cbeaa84') in 0.001228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.917319 seconds.
+  path: Assets/ARDKExamples/PlaneAnchors/PlaneAnchors.unity
+  artifactKey: Guid(bfba5cea385a241f3af07584baef9462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/PlaneAnchors/PlaneAnchors.unity using Guid(bfba5cea385a241f3af07584baef9462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b701ec07d624b90a84db913d91b9ddf1') in 0.001295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.632909 seconds.
+  path: Assets/ARDKExamples/Preloading/Preloading.unity
+  artifactKey: Guid(910c73415ba6044389064873bc198e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Preloading/Preloading.unity using Guid(910c73415ba6044389064873bc198e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a88a43c15a74b49c66da43240dd9287') in 0.001272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.429481 seconds.
+  path: Assets/ARDKExamples/SceneSelector/ReturnToSceneSelector.cs
+  artifactKey: Guid(2c2e5c8df0c3a4f2a988b632bbca2710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/SceneSelector/ReturnToSceneSelector.cs using Guid(2c2e5c8df0c3a4f2a988b632bbca2710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c30510203b5c14f3f53be32d2f3e3f6') in 0.001561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.742966 seconds.
+  path: Assets/ARDK/Properties
+  artifactKey: Guid(1382cd7d85234437a8e4f4ad0ea4c424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Properties using Guid(1382cd7d85234437a8e4f4ad0ea4c424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0f8d07a1df72c55544e2fbe577b6ae') in 0.001135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.673763 seconds.
+  path: Assets/ARDK/Rendering
+  artifactKey: Guid(fbe6fb6b9f6d942fc81d424a73658209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Rendering using Guid(fbe6fb6b9f6d942fc81d424a73658209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e200c6c195ae23739b681a027a40fb') in 0.001075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.566825 seconds.
+  path: Assets/ARDK/Plugins
+  artifactKey: Guid(e4075fe7c71c2449bb274fb85a2cda11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Plugins using Guid(e4075fe7c71c2449bb274fb85a2cda11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf3e4612f056f2e2d0f5eae1231a5f3') in 0.001036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7239.713738 seconds.
+  path: Assets/ARDKExamples/PlaneAnchors
+  artifactKey: Guid(31f648b68124f4df8be6a851817e435e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/PlaneAnchors using Guid(31f648b68124f4df8be6a851817e435e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336650709fec6e69d90f8dcfe9cfda04') in 0.001882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.505424 seconds.
+  path: Assets/ARDKExamples/PongHLAPI
+  artifactKey: Guid(7824a15d77dfb4d31b237b010e4e4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/PongHLAPI using Guid(7824a15d77dfb4d31b237b010e4e4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95e133c1df564d05c9b89e57bfbdcf4') in 0.002027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.096640 seconds.
+  path: Assets/ARDKExamples/Pong
+  artifactKey: Guid(026ea9604ed9e47c89585d101a194e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Pong using Guid(026ea9604ed9e47c89585d101a194e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20c5564c3da926d5d62b5162c023d1b') in 0.001920 seconds 
