@@ -3,6 +3,11 @@
 using System;
 
 using Niantic.ARDK.AR;
+using Niantic.ARDK.AR;
+using Niantic.ARDK.AR.Anchors;
+using Niantic.ARDK.AR.ARSessionEventArgs;
+using Niantic.ARDK.AR.HitTest;
+using Niantic.ARDK.External;
 using Niantic.ARDK.AR.ARSessionEventArgs;
 using Niantic.ARDK.AR.Configuration;
 using Niantic.ARDK.Networking;
@@ -78,6 +83,14 @@ namespace Niantic.ARDK.Extensions
 
     // TANKS AR CODE
     private bool tryingToSpawn_ = false;
+
+    // public IARCamera camera_;
+
+      /// Prefabs to be instantiated when the game starts
+    [Header("Tank Prefab")]
+    [SerializeField]
+    private GameObject tankPrefab_ = null;
+    private GameObject _tank;
 
     public IARSession ARSession
     {
@@ -243,7 +256,15 @@ namespace Niantic.ARDK.Extensions
 
       // Just in case the dev disposes the ARSession themselves instead of through this manager
       _arSession.Deinitialized += (_) => _arSession = null;
+      // _arSession.CameraTrackingStateChanged += OnCameraTrackingStateChanged;
     }
+
+    // private void OnCameraTrackingStateChanged(CameraTrackingStateChangedArgs args)
+    // {
+    //   Debug.Log("OnCameraTrackingStateChanged");
+    //   camera_ = args.Camera;
+    // }
+
 
     /// Runs an already created session with the provided options.
     private void Run()
@@ -264,25 +285,52 @@ namespace Niantic.ARDK.Extensions
       tryingToSpawn_ = true;
     }
 
-    // private void Update()
-    // {
-    //   if (_session == null) {
-    //     return;
-    //   }
+    private void Update()
+    {
+      if (_arSession == null) {
+        // Debug.Log("(_arSession == null)");
+        return;
+      }
 
-    //   // Get the current frame
-    //   var currentFrame = _session.CurrentFrame;
-    //   if (currentFrame == null) {
-    //     return;
-    //   }
+      // Get the current frame
+      var currentFrame = _arSession.CurrentFrame;
+      if (currentFrame == null) {
+        // Debug.Log("(currentFrame == null)");
+        return;
+      }
 
-    //   if (tryingToSpawn_) {
+      if (tryingToSpawn_) {
+        var x = currentFrame.Camera.ImageResolution.width / 2; // camera_.pixelWidth / 2;
+        var y = currentFrame.Camera.ImageResolution.height / 2; // camera_.pixelHeight / 2;
+        // #if UNITY_EDITOR
+        //   // Hit tests against EstimatedHorizontalPlanes don't work in Virtual Studio Remote/Mock,
+        //   // so just place the cube under mouse click
+        //   var position = camera_.ScreenToWorldPoint(new Vector3(x, y, 1f));
+        // #else
+          // Do a hit test against estimated planes (ie against the real world environment, not against
+          // Unity colliders like in Update
+          var results =
+            currentFrame.HitTest
+            (
+              currentFrame.Camera.ImageResolution.width,
+              currentFrame.Camera.ImageResolution.height,
+              new Vector2(x, y),
+              ARHitTestResultType.EstimatedHorizontalPlane
+            );
+          // Debug.Log("Hit test results: " + results.Count);
+          if (results.Count <= 0)
+            return;
+          // Get the closest result
+          var result = results[0];
+          // Create a new anchor and add it to our list and the session
+          var position = result.WorldTransform.ToPosition();
+        // #endif
+        // Debug.Log($"x {x} y {y} -> {position.x} {position.y}");
 
-
-        
-    //     tryingToSpawn_ = false;
-    //   }
-    // }
+        _tank = Instantiate(tankPrefab_, position, Quaternion.identity);
+        tryingToSpawn_ = false;
+      }
+    }
 
     /// Initializes and runs the session.
     private void CreateAndRun()
