@@ -76,6 +76,9 @@ namespace Niantic.ARDK.Extensions
     private IARSession _arSession;
     private bool _shouldBeRunning;
 
+    // TANKS AR CODE
+    private bool tryingToSpawn_ = false;
+
     public IARSession ARSession
     {
       get
@@ -250,13 +253,36 @@ namespace Niantic.ARDK.Extensions
         ARLog._Error("Failed to run ARSession because one was not initialized.");
         return;
       }
-
+      Debug.Log("[ARSessionManager@Run]"); 
       // Config changes are made later in the ApplyARConfigurationChange method. That way,
       // this class is able to intercept and alter the ARConfiguration every ARSession is run with,
       // even if the session is run outside of this method.
       var worldConfig = ARWorldTrackingConfigurationFactory.Create();
       _arSession.Run(worldConfig, _runOptions);
+
+      // Spawn the tank
+      tryingToSpawn_ = true;
     }
+
+    // private void Update()
+    // {
+    //   if (_session == null) {
+    //     return;
+    //   }
+
+    //   // Get the current frame
+    //   var currentFrame = _session.CurrentFrame;
+    //   if (currentFrame == null) {
+    //     return;
+    //   }
+
+    //   if (tryingToSpawn_) {
+
+
+        
+    //     tryingToSpawn_ = false;
+    //   }
+    // }
 
     /// Initializes and runs the session.
     private void CreateAndRun()

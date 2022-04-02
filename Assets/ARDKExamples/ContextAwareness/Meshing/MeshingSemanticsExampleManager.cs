@@ -12,7 +12,7 @@ using Niantic.ARDK.Utilities.Logging;
 
 using UnityEngine;
 using UnityEngine.UI;
-
+using System;
 namespace Niantic.ARDKExamples
 {
   public class MeshingSemanticsExampleManager: MonoBehaviour
@@ -58,6 +58,7 @@ namespace Niantic.ARDKExamples
 
     private void OnEnable()
     {
+      Debug.Log("[MeshingSemanticExampleManager] OnEnable");
       _semanticSegmentationManager.SemanticBufferInitialized += OnSemanticBufferInitialized;
       _semanticSegmentationManager.SemanticBufferUpdated += OnSemanticBufferUpdated;
     }
@@ -91,6 +92,7 @@ namespace Niantic.ARDKExamples
 
     private void OnDestroy()
     {
+      Console.Write("[MeshingSemanticExampleManager] OnDestroy");
       // Release textures
       if (_semanticsTexture != null)
         Destroy(_semanticsTexture);

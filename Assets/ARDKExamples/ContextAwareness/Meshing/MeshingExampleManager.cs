@@ -9,6 +9,7 @@ using Niantic.ARDK.Utilities.Logging;
 
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 namespace Niantic.ARDKExamples
 {
@@ -40,6 +41,7 @@ namespace Niantic.ARDKExamples
 
     private void Start()
     {
+      Debug.Log("[MeshingExampleManager] Start");
       ShowLoadingScenePanel(false);
       ARSessionFactory.SessionInitialized += OnSessionInitialized;
     }
@@ -54,6 +56,7 @@ namespace Niantic.ARDKExamples
 
     private void OnSessionInitialized(AnyARSessionInitializedArgs args)
     {
+      Debug.Log("[MeshingExampleManager] OnSessionInitialized");
       args.Session.Mesh.MeshBlocksUpdated += OnMeshUpdated;
 
       _contextAwarenessLoadComplete = false;
