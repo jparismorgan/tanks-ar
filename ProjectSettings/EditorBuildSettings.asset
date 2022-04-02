@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/ARDKExamples/SceneSelector/SceneSelector.unity
     guid: 84237189c8d04465ba3b54cde60f5d2e
   - enabled: 0
@@ -17,10 +17,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ARDKExamples/ARNetworking/ARNetworking.unity
     guid: bca8fefed828e45d1a0c8393ac6fed6e
-  - enabled: 0
+  - enabled: 1
     path: Assets/ARDKExamples/ContextAwareness/Depth/Depth.unity
     guid: e5811d6a38e5846ca8d1a720194f0a1b
-  - enabled: 0
+  - enabled: 1
     path: Assets/ARDKExamples/ContextAwareness/Depth/Suppression.unity
     guid: c3eb118178d3f41c1b8e34dc3882e175
   - enabled: 1

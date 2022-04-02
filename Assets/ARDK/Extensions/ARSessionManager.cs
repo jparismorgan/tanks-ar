@@ -288,25 +288,26 @@ namespace Niantic.ARDK.Extensions
     private void Update()
     {
       if (_arSession == null) {
-        // Debug.Log("(_arSession == null)");
-        return;
-      }
-
-      // Get the current frame
-      var currentFrame = _arSession.CurrentFrame;
-      if (currentFrame == null) {
-        // Debug.Log("(currentFrame == null)");
+        Debug.Log("(_arSession == null)");
         return;
       }
 
       if (tryingToSpawn_) {
-        var x = currentFrame.Camera.ImageResolution.width / 2; // camera_.pixelWidth / 2;
-        var y = currentFrame.Camera.ImageResolution.height / 2; // camera_.pixelHeight / 2;
         // #if UNITY_EDITOR
         //   // Hit tests against EstimatedHorizontalPlanes don't work in Virtual Studio Remote/Mock,
         //   // so just place the cube under mouse click
+        //   var x = 0;
+        //   var y = 0;
         //   var position = camera_.ScreenToWorldPoint(new Vector3(x, y, 1f));
         // #else
+          // Get the current frame
+          var currentFrame = _arSession.CurrentFrame;
+          var x = currentFrame.Camera.ImageResolution.width / 2; // camera_.pixelWidth / 2;
+          var y = currentFrame.Camera.ImageResolution.height / 2; // camera_.pixelHeight / 2;
+          if (currentFrame == null) {
+            Debug.Log("(currentFrame == null)");
+            return;
+          }
           // Do a hit test against estimated planes (ie against the real world environment, not against
           // Unity colliders like in Update
           var results =
@@ -322,10 +323,13 @@ namespace Niantic.ARDK.Extensions
             return;
           // Get the closest result
           var result = results[0];
+          if (result == null) {
+            return;
+          }
           // Create a new anchor and add it to our list and the session
           var position = result.WorldTransform.ToPosition();
         // #endif
-        // Debug.Log($"x {x} y {y} -> {position.x} {position.y}");
+        Debug.Log($"x {x} y {y} -> {position.x} {position.y}");
 
         _tank = Instantiate(tankPrefab_, position, Quaternion.identity);
         tryingToSpawn_ = false;
