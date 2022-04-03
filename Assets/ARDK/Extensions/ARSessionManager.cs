@@ -90,7 +90,15 @@ namespace Niantic.ARDK.Extensions
     [Header("Tank Prefab")]
     [SerializeField]
     private GameObject tankPrefab_ = null;
-    private GameObject _tank;
+    // private GameObject _tank;
+
+    [Header("Joystick")]
+    [SerializeField]
+    private GameObject joystick_ = null;
+
+    [Header("Tank")]
+    [SerializeField]
+    private GameObject tank_ = null;
 
     public IARSession ARSession
     {
@@ -292,7 +300,8 @@ namespace Niantic.ARDK.Extensions
         return;
       }
 
-      if (tryingToSpawn_) {
+      bool tapped = PlatformAgnosticInput.touchCount == 2 && PlatformAgnosticInput.GetTouch(0).phase == TouchPhase.Began;
+      if (tryingToSpawn_ || tapped) {
         #if UNITY_EDITOR
           // Hit tests against EstimatedHorizontalPlanes don't work in Virtual Studio Remote/Mock,
           // so just place the cube under mouse click
@@ -329,9 +338,12 @@ namespace Niantic.ARDK.Extensions
           // Create a new anchor and add it to our list and the session
           var position = result.WorldTransform.ToPosition();
         #endif
-        Debug.Log($"x {x} y {y} -> {position.x} {position.y}");
+        // Debug.Log($"x {x} y {y} -> {position.x} {position.y}");
 
-        _tank = Instantiate(tankPrefab_, position, Quaternion.identity);
+        // _tank = Instantiate(tankPrefab_, position, Quaternion.identity);
+        tank_.transform.position = position;
+        tank_.SetActive(true);
+        joystick_.SetActive(true);
         tryingToSpawn_ = false;
       }
     }

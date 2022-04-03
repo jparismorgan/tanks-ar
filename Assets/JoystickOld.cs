@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Joystick : MonoBehaviour {
+public class JoystickOld : MonoBehaviour {
     public Transform player;
     public float speed = 5.0f;
     private bool touchStart = false;
