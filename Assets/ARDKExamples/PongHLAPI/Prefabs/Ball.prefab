@@ -72,10 +72,12 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 52d6c81b939124cc49585c65c429d895, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,6 +85,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -95,6 +98,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!54 &54268964159427294
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -123,9 +127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fd171c6c1184ff491f420f69849ba07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rawId: 2625609222610593092
+  _rawId: 0
   _prefabId: 2625609222610593092
   _destructionAuthorizedPeers: -1
+  _destroyIfDestroyerLeaves: 0
   _auth: {fileID: 114574812935425414}
   _defaultBehaviour: {fileID: 114190860672256076}
   _behaviours:

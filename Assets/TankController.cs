@@ -5,7 +5,7 @@ using UnityEngine;
 public class TankController : MonoBehaviour
 {
      [SerializeField]
-    public GameObject bulletPrefab;
+    public GameObject bulletPrefab = null;
 
     // Start is called before the first frame update
     void Start()
@@ -19,13 +19,18 @@ public class TankController : MonoBehaviour
         // Shoot(hand.shootFromHere.transform.position, wrist.Rotation)
     }
 
-
+    public void ShootBullet() {
+        Debug.Log("Shoot!");
+        Debug.Log(gameObject.transform.position);
+        Shoot(gameObject.transform.position, gameObject.transform.rotation, Color.black);
+    }
     private void Shoot(Vector3 origin, Quaternion rotation, Color? color = null) {
         Debug.Log($"Shoot - origin: {origin} rotation: {rotation}");
         GameObject bullet = Instantiate(bulletPrefab, origin, rotation);
         if (color != null) {
             bullet.gameObject.GetComponent<Renderer>().material.SetColor("_Color", color.Value);
         }
+        Debug.Log(bullet.transform.position);
         // audioSource.PlayOneShot(gunSound, 0.2f);
     }
 }
