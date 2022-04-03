@@ -17,12 +17,12 @@ public class JoystickPlayerExampleRotation : MonoBehaviour
       //             rb.AddForce( transform.right *  forwardMove * 1.0f ); 
       // }
       // rotate on z axis when moving joystick left or right.
-      rb.rotation =  rb.rotation * Quaternion.AngleAxis( variableJoystick.Horizontal * 1.0f, Vector3.forward); 
+      // rb.rotation =  rb.rotation * Quaternion.AngleAxis( variableJoystick.Horizontal * 1.0f, Vector3.forward); 
+      // rb.MoveRotation(rb.rotation * Quaternion.AngleAxis( variableJoystick.Horizontal * 1.0f, Vector3.forward)); 
 
-      // float turn = m_HorizontalValue * m_TurnSpeed * Time.deltaTime;
-
-      //   Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
-
-      //   m_Rigidbody.MoveRotation(m_Rigidbody.rotation * turnRotation); 
+      float turn = variableJoystick.Horizontal * speed * Time.deltaTime;
+      Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
+      Debug.Log($"turn {turn}");
+      rb.MoveRotation(rb.rotation * turnRotation); 
     }
 }
