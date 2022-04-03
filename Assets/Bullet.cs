@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour {
-        private const float speed = 3f;
+        private const float speed = 0.1f;
 
         // public GameObject explosionPrefab;
         private int lives = 3;
 
         void Start() {
-            Destroy(this.gameObject, 8.0f);
+            Destroy(this.gameObject, 20.0f);
         }
 
         void Update() {

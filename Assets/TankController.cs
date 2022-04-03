@@ -25,7 +25,7 @@ public class TankController : MonoBehaviour
     public void ShootBullet() {
         Debug.Log("Shoot!");
         Debug.Log(gameObject.transform.position);
-        Shoot(gameObject.transform.position, gameObject.transform.rotation, Color.black);
+        Shoot(gameObject.transform.position, gameObject.transform.rotation, Color.red);
     }
     private void Shoot(Vector3 origin, Quaternion rotation, Color? color = null) {
         Debug.Log($"Shoot - origin: {origin} rotation: {rotation}");
