@@ -1,0 +1,729 @@
+Unity Editor version:    2020.3.32f1 (12f8b0834f07)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2 (Build 21D49)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        65536 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/parismorgan/repo/ARDK-Getting-Started
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62711
+Successfully changed project path to: /Users/parismorgan/repo/ARDK-Getting-Started
+/Users/parismorgan/repo/ARDK-Getting-Started
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 42.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/parismorgan/repo/ARDK-Getting-Started/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-02 18:10:16.698 Unity[14625:3273612] (null) preferred device: Apple M1 Max (high power)
+2022-04-02 18:10:16.698 Unity[14625:3273612] Metal devices available: 1
+2022-04-02 18:10:16.698 Unity[14625:3273612] 0: Apple M1 Max (high power)
+2022-04-02 18:10:16.699 Unity[14625:3273612] Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56625
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000351 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 44.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1129ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (301ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Mono: successfully reloaded assembly
+- Completed reload, in  1.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1801ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1504ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (792ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (607ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.011652 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.017242 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2022-04-02 18:10:20.489 Unity[14625:3273612] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000074a140 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-02 18:10:20.493 Unity[14625:3273612] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000755ff0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2259 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.3 MB.
+System memory in use after: 204.5 MB.
+
+Unloading 190 unused Assets to reduce memory usage. Loaded Objects now: 2721.
+Total: 2.460791 ms (FindLiveObjects: 0.099625 ms CreateObjectMapping: 0.044958 ms MarkObjects: 1.851458 ms  DeleteObjects: 0.464042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Ball(Clone).prefab
+  artifactKey: Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball(Clone).prefab using Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08406bff625f3e1fc314816812fce496') in 0.621469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.861458 seconds.
+  path: Assets/ARDK/Extensions/Prefabs/ARNetworkingSceneManager.prefab
+  artifactKey: Guid(903492e152bd34b2b8e964fe195297e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/Prefabs/ARNetworkingSceneManager.prefab using Guid(903492e152bd34b2b8e964fe195297e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f882761ecf300771dbc8caa21bf81826') in 0.017493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/ARDK/Extensions/Prefabs/ARSceneManager.prefab
+  artifactKey: Guid(e91d6d15f11cc4ad29bb1a41ae9aa381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK/Extensions/Prefabs/ARSceneManager.prefab using Guid(e91d6d15f11cc4ad29bb1a41ae9aa381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97541c05a6796a2ec339e114bd9d8fec') in 0.004179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.275653 seconds.
+  path: Assets/Ball(Clone).prefab
+  artifactKey: Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball(Clone).prefab using Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bfcf137637f1da349529db602fa9f2') in 0.013195 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-02 18:10:56.204 Unity[14625:3273612] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000748f50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Mono: successfully reloaded assembly
+- Completed reload, in  1.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1889ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1628ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (861ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (630ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.3 MB.
+System memory in use after: 205.5 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2732.
+Total: 2.278875 ms (FindLiveObjects: 0.113333 ms CreateObjectMapping: 0.042458 ms MarkObjects: 2.042042 ms  DeleteObjects: 0.079750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25.647670 seconds.
+  path: Assets/Ball(Clone).prefab
+  artifactKey: Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball(Clone).prefab using Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee584a687a80d5a6e7ae2f5d91324c4') in 0.140450 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-02 18:11:16.700 Unity[14625:3273612] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000074a0d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Mono: successfully reloaded assembly
+- Completed reload, in  1.893 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1894ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1642ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (878ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (646ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2736.
+Total: 2.217625 ms (FindLiveObjects: 0.091958 ms CreateObjectMapping: 0.043584 ms MarkObjects: 2.000541 ms  DeleteObjects: 0.080250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.341767 seconds.
+  path: Assets/BulletPrefab.prefab
+  artifactKey: Guid(8d950c49d688e427db6d697b49e7823c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BulletPrefab.prefab using Guid(8d950c49d688e427db6d697b49e7823c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd569ae9b0259fdfce1a8cda719ebb072') in 0.136288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.743474 seconds.
+  path: Assets/Ball(Clone).prefab
+  artifactKey: Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball(Clone).prefab using Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94db18d881fff234d4564a1ba8c25f5a') in 0.016771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.501433 seconds.
+  path: Assets/Ball(Clone).prefab
+  artifactKey: Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ball(Clone).prefab using Guid(deeb5761630234f4c96d26e7f07621bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12919c55237290de87fca5d8f13c6197') in 0.007100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.633168 seconds.
+  path: Assets/csc.rsp
+  artifactKey: Guid(ea9d555c30acf475abba20a19c8d9283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/csc.rsp using Guid(ea9d555c30acf475abba20a19c8d9283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c990be338a297ec2bc0c276dc8c9c1e7') in 0.055795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.865594 seconds.
+  path: Assets/ARDK
+  artifactKey: Guid(d1d8b692fcb9a4b3aaa54c59d88d8e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDK using Guid(d1d8b692fcb9a4b3aaa54c59d88d8e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df2a6e653470868fe7ef0bee271fd79') in 0.002082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.748546 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(d3aa6dd2d48ad405fa4c2f723c825dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(d3aa6dd2d48ad405fa4c2f723c825dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03a91bb374fab3ee942948e16c0672f') in 0.009049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.260610 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(d3aa6dd2d48ad405fa4c2f723c825dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(d3aa6dd2d48ad405fa4c2f723c825dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e298d4aea5538ccb0ad1c5426768d286') in 0.008705 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-02 18:13:37.667 Unity[14625:3273612] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000073c850 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Mono: successfully reloaded assembly
+- Completed reload, in  1.784 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1784ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1539ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (824ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (598ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.1 MB.
+System memory in use after: 210.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2741.
+Total: 2.080000 ms (FindLiveObjects: 0.088167 ms CreateObjectMapping: 0.042958 ms MarkObjects: 1.880667 ms  DeleteObjects: 0.067208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.914528 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(d3aa6dd2d48ad405fa4c2f723c825dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(d3aa6dd2d48ad405fa4c2f723c825dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23742131c01c3ff60064bf71ec18a6a4') in 0.122424 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-02 18:14:29.227 Unity[14625:3273612] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000073c9a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Mono: successfully reloaded assembly
+- Completed reload, in  1.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1834ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1591ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (848ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (616ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.1 MB.
+System memory in use after: 210.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 2.097708 ms (FindLiveObjects: 0.093458 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.899792 ms  DeleteObjects: 0.059916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-02 18:14:57.992 Unity[14625:3273612] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000756530 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Mono: successfully reloaded assembly
+- Completed reload, in  1.766 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1766ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1527ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (781ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (570ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.2 MB.
+System memory in use after: 210.3 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2748.
+Total: 2.015625 ms (FindLiveObjects: 0.083916 ms CreateObjectMapping: 0.041292 ms MarkObjects: 1.816666 ms  DeleteObjects: 0.072916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80.194947 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(d3aa6dd2d48ad405fa4c2f723c825dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(d3aa6dd2d48ad405fa4c2f723c825dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47e419a7db26731794222bfab71ace9') in 0.128919 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-04-02 18:15:59.262 Unity[14625:3273612] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000071b090 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/TODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.32f1/Unity.app/Contents/Frameworks/Mono/lib/libTODO_DOES_NOT_EXIST
+Mono: successfully reloaded assembly
+- Completed reload, in  1.844 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1844ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1597ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (850ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (620ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.5 MB.
+System memory in use after: 210.7 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2752.
+Total: 2.152042 ms (FindLiveObjects: 0.102208 ms CreateObjectMapping: 0.044833 ms MarkObjects: 1.935292 ms  DeleteObjects: 0.068833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

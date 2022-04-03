@@ -348,7 +348,7 @@ namespace Niantic.ARDK.Extensions
         tank_.transform.position = position;
         tank_.SetActive(true);
         joystick_.SetActive(true);
-        joystickRotation_.SetActive(true);
+        // joystickRotation_.SetActive(true);
         tryingToSpawn_ = false;
       }
     }

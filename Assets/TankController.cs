@@ -18,7 +18,7 @@ public class TankController : MonoBehaviour
     {
         // gameObject.transform.rotation = Quaternion.identity;
         // transform.rotation = Quaternion.Euler(transform.eulerAngles.x,0, transform.eulerAngles.z);
-        transform.rotation = Quaternion.Euler(0,transform.eulerAngles.y,0);
+        gameObject.transform.rotation = Quaternion.Euler(0,transform.eulerAngles.y,0);
         // Shoot(hand.shootFromHere.transform.position, wrist.Rotation)
     }
 

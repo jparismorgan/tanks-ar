@@ -22,7 +22,6 @@ public class JoystickPlayerExampleRotation : MonoBehaviour
 
       float turn = variableJoystick.Horizontal * speed * Time.deltaTime;
       Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
-      Debug.Log($"turn {turn}");
       rb.MoveRotation(rb.rotation * turnRotation); 
     }
 }
