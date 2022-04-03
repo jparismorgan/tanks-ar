@@ -96,6 +96,10 @@ namespace Niantic.ARDK.Extensions
     [SerializeField]
     private GameObject joystick_ = null;
 
+    [Header("Joystick Rotation")]
+    [SerializeField]
+    private GameObject joystickRotation_ = null;
+
     [Header("Tank")]
     [SerializeField]
     private GameObject tank_ = null;
@@ -344,6 +348,7 @@ namespace Niantic.ARDK.Extensions
         tank_.transform.position = position;
         tank_.SetActive(true);
         joystick_.SetActive(true);
+        joystickRotation_.SetActive(true);
         tryingToSpawn_ = false;
       }
     }
